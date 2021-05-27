@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Battleships</title>
+</head>
+
+<body>
+    <div class="logo"><img src="logo.png" alt=""></div>
+    <div class="infographic1">
+        <div class="indexRow">
+            <div class="row">1</div>
+            <div class="row">2</div>
+            <div class="row">3</div>
+            <div class="row">4</div>
+            <div class="row">5</div>
+            <div class="row">6</div>
+            <div class="row">7</div>
+            <div class="row">8</div>
+            <div class="row">9</div>
+            <div class="row">10</div>
+        </div>
+        <div class="indexColumn">
+            <div class="column">A</div>
+            <div class="column">B</div>
+            <div class="column">C</div>
+            <div class="column">D</div>
+            <div class="column">E</div>
+            <div class="column">F</div>
+            <div class="column">G</div>
+            <div class="column">H</div>
+            <div class="column">I</div>
+            <div class="column">K</div>
+        </div>
+
+
+        <div class="grafic" id="1" data-x="1" data-y="A"></div>
+        <div class="grafic" id="2" data-x="2" data-y="A"></div>
+        <div class="grafic" id="3" data-x="3" data-y="A"></div>
+        <div class="grafic" id="4" data-x="4" data-y="A"></div>
+        <div class="grafic" id="5" data-x="5" data-y="A"></div>
+        <div class="grafic" id="6" data-x="6" data-y="A"></div>
+        <div class="grafic" id="7" data-x="7" data-y="A"></div>
+        <div class="grafic" id="8" data-x="8" data-y="A"></div>
+        <div class="grafic" id="9" data-x="9" data-y="A"></div>
+        <div class="grafic" id="10" data-x="10" data-y="A"></div>
+        <div class="grafic" id="11" data-x="1" data-y="B"></div>
+        <div class="grafic" id="12" data-x="2" data-y="B"></div>
+        <div class="grafic" id="13" data-x="3" data-y="B"></div>
+        <div class="grafic" id="14" data-x="4" data-y="B"></div>
+        <div class="grafic" id="15" data-x="5" data-y="B"></div>
+        <div class="grafic" id="16" data-x="6" data-y="B"></div>
+        <div class="grafic" id="17" data-x="7" data-y="B"></div>
+        <div class="grafic" id="18" data-x="8" data-y="B"></div>
+        <div class="grafic" id="19" data-x="9" data-y="B"></div>
+        <div class="grafic" id="20" data-x="10" data-y="B"></div>
+        <div class="grafic" id="21" data-x="1" data-y="C"></div>
+        <div class="grafic" id="22" data-x="2" data-y="C"></div>
+        <div class="grafic" id="23" data-x="3" data-y="C"></div>
+        <div class="grafic" id="24" data-x="4" data-y="C"></div>
+        <div class="grafic" id="25" data-x="5" data-y="C"></div>
+        <div class="grafic" id="26" data-x="6" data-y="C"></div>
+        <div class="grafic" id="27" data-x="7" data-y="C"></div>
+        <div class="grafic" id="28" data-x="8" data-y="C"></div>
+        <div class="grafic" id="29" data-x="9" data-y="C"></div>
+        <div class="grafic" id="30" data-x="10" data-y="C"></div>
+        <div class="grafic" id="31" data-x="1" data-y="D"></div>
+        <div class="grafic" id="32" data-x="2" data-y="D"></div>
+        <div class="grafic" id="33" data-x="3" data-y="D"></div>
+        <div class="grafic" id="34" data-x="4" data-y="D"></div>
+        <div class="grafic" id="35" data-x="5" data-y="D"></div>
+        <div class="grafic" id="36" data-x="6" data-y="D"></div>
+        <div class="grafic" id="37" data-x="7" data-y="D"></div>
+        <div class="grafic" id="38" data-x="8" data-y="D"></div>
+        <div class="grafic" id="39" data-x="9" data-y="D"></div>
+        <div class="grafic" id="40" data-x="10" data-y="D"></div>
+        <div class="grafic" id="41" data-x="1" data-y="E"></div>
+        <div class="grafic" id="42" data-x="2" data-y="E"></div>
+        <div class="grafic" id="43" data-x="3" data-y="E"></div>
+        <div class="grafic" id="44" data-x="4" data-y="E"></div>
+        <div class="grafic" id="45" data-x="5" data-y="E"></div>
+        <div class="grafic" id="46" data-x="6" data-y="E"></div>
+        <div class="grafic" id="47" data-x="7" data-y="E"></div>
+        <div class="grafic" id="48" data-x="8" data-y="E"></div>
+        <div class="grafic" id="49" data-x="9" data-y="E"></div>
+        <div class="grafic" id="50" data-x="10" data-y="E"></div>
+        <div class="grafic" id="51" data-x="1" data-y="F"></div>
+        <div class="grafic" id="52" data-x="2" data-y="F"></div>
+        <div class="grafic" id="53" data-x="3" data-y="F"></div>
+        <div class="grafic" id="54" data-x="4" data-y="F"></div>
+        <div class="grafic" id="55" data-x="5" data-y="F"></div>
+        <div class="grafic" id="56" data-x="6" data-y="F"></div>
+        <div class="grafic" id="57" data-x="7" data-y="F"></div>
+        <div class="grafic" id="58" data-x="8" data-y="F"></div>
+        <div class="grafic" id="59" data-x="9" data-y="F"></div>
+        <div class="grafic" id="60" data-x="10" data-y="F"></div>
+        <div class="grafic" id="61" data-x="1" data-y="G"></div>
+        <div class="grafic" id="62" data-x="2" data-y="G"></div>
+        <div class="grafic" id="63" data-x="3" data-y="G"></div>
+        <div class="grafic" id="64" data-x="4" data-y="G"></div>
+        <div class="grafic" id="65" data-x="5" data-y="G"></div>
+        <div class="grafic" id="66" data-x="6" data-y="G"></div>
+        <div class="grafic" id="67" data-x="7" data-y="G"></div>
+        <div class="grafic" id="68" data-x="8" data-y="G"></div>
+        <div class="grafic" id="69" data-x="9" data-y="G"></div>
+        <div class="grafic" id="70" data-x="10" data-y="G"></div>
+        <div class="grafic" id="71" data-x="1" data-y="H"></div>
+        <div class="grafic" id="72" data-x="2" data-y="H"></div>
+        <div class="grafic" id="73" data-x="3" data-y="H"></div>
+        <div class="grafic" id="74" data-x="4" data-y="H"></div>
+        <div class="grafic" id="75" data-x="5" data-y="H"></div>
+        <div class="grafic" id="76" data-x="6" data-y="H"></div>
+        <div class="grafic" id="77" data-x="7" data-y="H"></div>
+        <div class="grafic" id="78" data-x="8" data-y="H"></div>
+        <div class="grafic" id="79" data-x="9" data-y="H"></div>
+        <div class="grafic" id="80" data-x="10" data-y="H"></div>
+        <div class="grafic" id="81" data-x="1" data-y="I"></div>
+        <div class="grafic" id="82" data-x="2" data-y="I"></div>
+        <div class="grafic" id="83" data-x="3" data-y="I"></div>
+        <div class="grafic" id="84" data-x="4" data-y="I"></div>
+        <div class="grafic" id="85" data-x="5" data-y="I"></div>
+        <div class="grafic" id="86" data-x="6" data-y="I"></div>
+        <div class="grafic" id="87" data-x="7" data-y="I"></div>
+        <div class="grafic" id="88" data-x="8" data-y="I"></div>
+        <div class="grafic" id="89" data-x="9" data-y="I"></div>
+        <div class="grafic" id="90" data-x="10" data-y="I"></div>
+        <div class="grafic" id="91" data-x="1" data-y="K"></div>
+        <div class="grafic" id="92" data-x="2" data-y="K"></div>
+        <div class="grafic" id="93" data-x="3" data-y="K"></div>
+        <div class="grafic" id="94" data-x="4" data-y="K"></div>
+        <div class="grafic" id="95" data-x="5" data-y="K"></div>
+        <div class="grafic" id="96" data-x="6" data-y="K"></div>
+        <div class="grafic" id="97" data-x="7" data-y="K"></div>
+        <div class="grafic" id="98" data-x="8" data-y="K"></div>
+        <div class="grafic" id="99" data-x="9" data-y="K"></div>
+        <div class="grafic" id="100" data-x="10" data-y="K"></div>
+    </div>
+    <div class="wrap">
+
+        <div id="sp">Log <i class="fas fa-ship"></i></div>
+        <div id="sp1">Number of units : 16</div>
+        <p></p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/b4e6b4ce55.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

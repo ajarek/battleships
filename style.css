@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #9198e5;
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.infographic1 {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    box-shadow: 3px 6px 8px 0 rgba(0, 0, 0, 0.6);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: content-box;
+}
+
+.indexRow {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    display: flex;
+}
+
+.indexColumn {
+    position: absolute;
+    top: 0;
+    left: -40px;
+}
+
+.row,
+.column {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grafic {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 40px;
+    background-color: #00BCD4;
+}
+
+.ship {
+    /* background-color: coral; */
+}
+
+.wrap {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    box-shadow: 3px 6px 8px 0 rgba(0, 0, 0, 0.6);
+    border: 1px solid white;
+    color: white;
+    overflow-x: hidden;
+    border-radius: 3px;
+}
+
+p {
+    padding: 25px 5px;
+}
+
+#sp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.2rem 1rem;
+    background-color: white;
+    color: black;
+    border-bottom-right-radius: 5px;
+}
+
+#sp1 {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    padding: 0.2rem 1rem;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 5px;
+}
+
+.active {
+    background-color: #FF6F00;
+}
+
+.mishit {
+    background-color: #0277BD;
+}
+
+@media(max-width:465px) {
+    .infographic1 {
+        height: 320px;
+        width: 320px;
+        grid-template-columns: repeat(auto-fit, minmax(32px, 1fr));
+    }
+
+    .row,
+    .column {
+        width: 32px;
+        height: 32px;
+    }
+
+    .grafic {
+        height: 32px;
+    }
+
+    .indexRow,
+    .indexColumn {
+        display: none;
+    }
+
+    .wrap {
+        width: 320px;
+    }
+
+    .logo {
+        min-width: 320px;
+    }
+}
